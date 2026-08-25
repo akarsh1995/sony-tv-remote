@@ -18,9 +18,9 @@ enum class IrccCommand(val displayName: String, val code: String) {
     RIGHT("Right", "AAAAAQAAAAEAAAAzAw=="),
     ENTER("Enter / OK", "AAAAAQAAAAEAAABlAw=="),
     HOME("Home", "AAAAAQAAAAEAAABgAw=="),
-    BACK("Back / Return", "AAAAAQAAAAEAAABjAw=="),
-    EXIT("Exit", "AAAAAQAAAAEAAABiAw=="),
-    OPTIONS("Options", "AAAAAQAAAAEAAAA2Aw=="),
+    BACK("Back / Return", "AAAAAgAAAJcAAAAjAw=="),
+    EXIT("Exit", "AAAAAQAAAAEAAABjAw=="),
+    OPTIONS("Options", "AAAAAgAAAJcAAAA2Aw=="),
 
     // Volume & Audio
     VOLUME_UP("Volume +", "AAAAAQAAAAEAAAASAw=="),
@@ -30,7 +30,7 @@ enum class IrccCommand(val displayName: String, val code: String) {
     // Channel Controls
     CHANNEL_UP("Channel +", "AAAAAQAAAAEAAAAQAw=="),
     CHANNEL_DOWN("Channel -", "AAAAAQAAAAEAAAARAw=="),
-    PREV_CHANNEL("Previous Channel", "AAAAAQAAAAEAAABnAw=="),
+    PREV_CHANNEL("Previous Channel", "AAAAAQAAAAEAAAA7Aw=="),
 
     // Source Inputs
     INPUT("Input", "AAAAAQAAAAEAAAAlAw=="),
@@ -52,6 +52,7 @@ enum class IrccCommand(val displayName: String, val code: String) {
     NETFLIX("Netflix", "AAAAAgAAABoAAAB8Aw=="),
     YOUTUBE("YouTube", "AAAAAgAAAMQAAABHAw=="),
     PRIME_VIDEO("Prime Video", "AAAAAgAAABoAAAB+Aw=="),
+    GOOGLE_PLAY("Google Play", "AAAAAgAAAMQAAABGAw=="),
 
     // Numeric Keys
     NUM_0("0", "AAAAAQAAAAEAAAAJAw=="),
@@ -64,16 +65,16 @@ enum class IrccCommand(val displayName: String, val code: String) {
     NUM_7("7", "AAAAAQAAAAEAAAAGAw=="),
     NUM_8("8", "AAAAAQAAAAEAAAAHAw=="),
     NUM_9("9", "AAAAAQAAAAEAAAAIAw=="),
-    DOT(".", "AAAAAgAAAJcAAAAvAw=="),
+    DOT(".", "AAAAAgAAAJcAAAAdAw=="),
 
     // Color Keys (Teletext / Smart TV Interactive)
     RED("Red", "AAAAAgAAAJcAAAAlAw=="),
     GREEN("Green", "AAAAAgAAAJcAAAAmAw=="),
     YELLOW("Yellow", "AAAAAgAAAJcAAAAnAw=="),
-    BLUE("Blue", "AAAAAgAAAJcAAAAoAw=="),
+    BLUE("Blue", "AAAAAgAAAJcAAAAkAw=="),
 
     // Display & Accessibility
     SUBTITLE("Subtitle", "AAAAAgAAAJcAAAAoAw=="),
     DISPLAY("Display Info", "AAAAAQAAAAEAAAA6Aw=="),
-    EPG("Guide / EPG", "AAAAAQAAAAEAAABbAw==")
+    EPG("Guide / EPG", "AAAAAgAAAKQAAABbAw==")
 }
