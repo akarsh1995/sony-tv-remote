@@ -1,0 +1,12 @@
+<resources>
+    <color name="remote_background">#121316</color>
+    <color name="remote_surface">#1E2026</color>
+    <color name="remote_surface_variant">#282A33</color>
+    <color name="remote_primary">#0A84FF</color>
+    <color name="remote_accent_red">#FF453A</color>
+    <color name="remote_accent_green">#30D158</color>
+    <color name="remote_accent_yellow">#FFD60A</color>
+    <color name="remote_accent_blue">#0A84FF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8E8E93</color>
+</resources>

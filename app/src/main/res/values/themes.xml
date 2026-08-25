@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.SonyRemote" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/remote_background</item>
+        <item name="android:navigationBarColor">@color/remote_background</item>
+        <item name="android:windowBackground">@color/remote_background</item>
+    </style>
+</resources>
