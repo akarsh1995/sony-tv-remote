@@ -11,3 +11,5 @@
 *.aab
 /app/build
 .kotlin
+*.keystore
+*.jks
