@@ -44,14 +44,14 @@ class SsdpDiscoveryManager(private val context: Context) {
 
             // Send M-SEARCH packets for each target
             for (st in searchTargets) {
-                val query = """
-                    M-SEARCH * HTTP/1.1
-                    HOST: $ssdpAddress:$ssdpPort
-                    MAN: "ssdp:discover"
-                    MX: 2
-                    ST: $st
-
-                """.trimIndent().replace("\n", "\r\n")
+                val query = buildString {
+                    append("M-SEARCH * HTTP/1.1\r\n")
+                    append("HOST: $ssdpAddress:$ssdpPort\r\n")
+                    append("MAN: \"ssdp:discover\"\r\n")
+                    append("MX: 2\r\n")
+                    append("ST: $st\r\n")
+                    append("\r\n")
+                }
 
                 val queryBytes = query.toByteArray(Charsets.UTF_8)
                 val packet = DatagramPacket(queryBytes, queryBytes.size, group, ssdpPort)
